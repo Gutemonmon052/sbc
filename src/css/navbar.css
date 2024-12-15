@@ -1,0 +1,12 @@
+.navbar{
+  @apply w-full h-fit flex flex-col justify-center items-center py-5 fixed z-[99];
+}
+
+.navbar-logo{
+  @apply w-fit h-fit flex justify-center items-center;
+}
+
+.navbar-menu{
+  font-family: "Alegreya";
+  @apply w-full h-fit flex justify-center items-center gap-10 max-md:gap-5 text-[20px] max-md:text-[18px] text-[#888888] py-2;
+}

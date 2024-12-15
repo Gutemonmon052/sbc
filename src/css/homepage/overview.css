@@ -1,0 +1,29 @@
+.company-overview{
+  @apply w-full h-fit flex flex-row max-md:flex-col justify-center items-center gap-8 px-20 max-md:px-2 py-32 max-md:py-12;
+}
+
+.comover-media{
+  @apply w-full h-[450px] max-md:h-[324px];
+}
+
+.comover-media iframe{
+  @apply w-full h-full object-cover;
+}
+
+.comover-desc{
+  @apply w-full h-fit flex flex-col gap-5 ;
+}
+
+.comover-desc h2{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[56px] max-md:text-[30px] text-[#1B4028] leading-[56px] max-md:leading-[32px];
+}
+
+.comover-desc p{
+  font-family: "Alegreya";
+  @apply w-fit h-fit text-[#212529] text-[24px] max-md:text-[16px];
+}
+
+.about-link{
+  @apply w-full h-fit flex items-end justify-end;
+}

@@ -1,0 +1,88 @@
+/* Our Product (Home Page) CSS */
+
+.product-loading-content{
+  @apply flex flex-row justify-center items-center;
+}
+
+.prdcard-skl{
+  @apply w-full h-full flex flex-col gap-5 animate-pulse rounded-md border-[1px] border-[#21252950];;
+}
+
+.prdcard-skl-img{
+  @apply w-full h-[200px] bg-gray-300;
+}
+
+.prdcard-skl-desc{
+  @apply w-full h-full flex flex-col gap-2 px-5;
+}
+
+.prdcard-skl-ctg{
+  @apply w-full h-[20px] bg-[#21252950] rounded-md;
+}
+
+.prdcard-skl-title{
+  @apply w-full h-[20px] bg-[#21252950] rounded-md;
+}
+
+.prdcard-skl-price{
+  @apply w-full h-[20px] bg-[#21252950] rounded-md;
+}
+
+.prdcard-skl-text{
+  @apply w-full h-fit flex flex-col gap-2;
+}
+
+.prdcard-skl-p{
+  @apply w-full h-[20px] bg-[#21252950] rounded-md;
+}
+
+/*Our Team in About Page*/
+
+.our-team-skl-c{
+  @apply w-full h-fit flex flex-row gap-5 animate-pulse border-[1px] border-[#21252950] rounded-sm p-8;  
+}
+
+.our-team-skl-img{
+  @apply w-[50px] h-[50px] flex justify-center items-center rounded-[100%] overflow-hidden bg-[#21252950];
+}
+
+.our-team-skl-desc{
+  @apply w-full h-fit flex flex-col gap-2;
+}
+
+.our-team-skl-text{
+  @apply w-full h-[20px] flex flex-col rounded-md bg-[#21252950];
+}
+
+/*Product list Skeleton*/
+
+.productlist-skl-card{
+  @apply w-full h-fit gap-5 flex flex-row animate-pulse; 
+}
+
+.productlist-skl-img{
+  @apply w-[200px] h-[200px] bg-[#21252950]; 
+}
+
+.productlist-skl-desc{
+  @apply w-full h-fit flex flex-col gap-5; 
+}
+
+.productlist-skl-text{
+  @apply w-full h-[20px] rounded-md bg-[#21252950];
+}
+
+.productlist-skl-text-1{
+  @apply w-full h-fit gap-3 flex flex-col;
+}
+
+.productlist-skl-text-1-1{
+  @apply w-full h-[20px] rounded-md bg-[#21252950];
+}
+
+/*Error and No Data*/
+
+.error, .no-data{
+  font-family: "Lora";
+  @apply text-red-500 text-[16px] w-full h-fit 
+}

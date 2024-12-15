@@ -1,0 +1,21 @@
+.ourculture{
+  @apply w-full h-fit flex flex-row max-md:flex-col gap-5 px-20 py-24 max-md:px-2 max-md:py-10;
+}
+
+.ourculture-desc{
+  @apply w-full h-fit flex flex-col justify-start items-start gap-5;
+}
+
+.ourculture-title{
+  font-family: "Alegreya Bold";
+  @apply w-full h-fit text-[56px] text-[#1B4028] leading-[56px] max-md:text-[32px] max-md:leading-[34px];
+}
+
+.ourculture-content{
+  font-family: "Alegreya";
+  @apply w-full h-fit text-[#212529] text-[24px] max-md:text-[16px] text-justify;
+}
+
+.ourculture-media{
+  @apply w-full h-fit flex justify-center items-center;
+}

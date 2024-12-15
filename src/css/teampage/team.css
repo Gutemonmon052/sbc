@@ -1,0 +1,41 @@
+.team{
+  @apply w-full h-fit flex flex-col justify-center items-center gap-8 px-20 py-32 relative max-md:px-2 max-md:py-24;
+}
+
+.team-desc{
+  @apply w-full h-fit flex flex-col justify-center items-center gap-8;
+}
+
+.team-desc h2{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[56px] text-[#1B4028] leading-[56px] max-md:text-[32px] max-md:leading-[34px];
+}
+
+.team-desc p{
+  font-family: "Alegreya";
+  @apply w-fit h-fit text-[#212529] text-[24px] text-center max-md:text-[18px];
+}
+
+.team-list-main{
+  @apply w-full h-fit flex flex-col gap-5;
+}
+
+.team-list-main-title , .team-list-production-title{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[32px] text-[#1B4028] leading-[32px] max-md:text-[26px] max-md:leading-[28px];
+}
+
+.team-list-main-member{
+  @apply w-full h-fit flex flex-col gap-5;
+}
+
+.team-list-production{
+  @apply w-full h-fit;
+}
+.team-list-production-title{
+  @apply mb-6;
+}
+
+.team-list-production-member{
+  @apply w-full h-fit grid grid-cols-2 gap-5 max-md:grid-cols-1;
+}

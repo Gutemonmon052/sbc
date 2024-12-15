@@ -1,0 +1,27 @@
+.about{
+  @apply w-full h-fit flex flex-col px-20 py-32 gap-7 relative max-md:px-2 max-md:py-20
+  ;
+}
+
+.aboutcontent1{
+  @apply w-full h-fit flex flex-row gap-8 max-md:flex-col max-md:gap-3;
+}
+
+.about-content1-media{
+  @apply w-fit h-full flex justify-center items-center;
+}
+
+.about-content1-desc{
+  @apply w-full h-fit flex flex-col justify-center items-start gap-5;
+}
+
+.about-content1-desc h2{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[56px] text-[#1B4028] leading-[56px] max-md:text-[32px] max-md:leading-[34px];
+}
+
+.about-content1-desc p{
+  font-family: "Alegreya";
+  @apply w-fit h-fit text-[#212529] text-[24px] text-justify max-md:text-[16px];
+}
+

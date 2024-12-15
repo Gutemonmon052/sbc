@@ -1,0 +1,38 @@
+.testimoniprd{
+  @apply w-full h-fit flex flex-col justify-center items-center gap-5 px-20 py-32 max-md:px-2 max-md:py-16 relative;
+}
+
+.testimonititle{
+  font-family: "Alegreya Bold";
+  @apply w-full h-fit text-[56px] text-[#1B4028] leading-[56px] max-md:text-[32px] max-md:leading-[34px] flex items-start justify-start;
+}
+
+.testimoni-content{
+  @apply w-full h-fit flex flex-col gap-5;
+}
+
+.testimonicard{
+  @apply w-full h-fit flex flex-row gap-5 rounded-lg border-2 border-[#1B4028] p-5;
+}
+
+.testimonicard-image{
+  @apply w-[80px] h-[80px] flex justify-center items-center rounded-[100%] overflow-hidden;
+}
+
+.testimonicard-image img{
+  @apply w-full h-full object-cover;
+}
+
+.testimonicard-text{
+  @apply w-full h-full flex flex-col justify-center items-start gap-4;
+}
+
+.testi-username{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[24px] text-[#1B4028] leading-[24px] max-md:text-[22px];
+}
+
+.testi-desc{
+  font-family: "Alegreya";
+  @apply w-fit h-fit text-[#212529] text-[16px] leading-[18px] text-justify max-md:text-[14px] max-md:leading-[16px];
+}

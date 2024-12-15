@@ -1,0 +1,42 @@
+.productpage{
+  @apply w-full h-fit flex flex-col justify-center items-center gap-5 px-20 py-32 max-md:px-2 max-md:py-16 relative;
+}
+.productslist{
+  @apply w-full h-fit flex flex-col justify-center items-center;
+}
+
+.productlist-title{
+  font-family: "Alegreya Bold";
+  @apply w-full h-fit text-[56px] text-[#1B4028] leading-[56px] flex items-center justify-center;
+}
+
+.productlist-content{
+  @apply w-full h-fit grid grid-cols-2 gap-5 pt-16 max-md:grid-cols-1 max-md:gap-8;
+}
+
+.productlist-card{
+  @apply w-full h-fit flex flex-row max-md:gap-2;
+}
+
+.productlist-card-image{
+  @apply w-full h-full flex justify-center items-center object-cover;
+}
+
+.productlist-card-identity{
+  @apply w-full h-full flex flex-col justify-start items-start gap-5;
+}
+
+.productlist-card-title{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[32px] text-[#1B4028] leading-[32px] max-md:text-[20px] max-md:leading-[20px];
+}
+
+.productlist-card-price{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[#212529] text-[24px] max-md:text-[18px];
+}
+
+.productlist-card-text{
+  font-family: "Alegreya";
+  @apply w-fit h-fit text-[#212529] text-[16px] text-justify max-md:text-[14px];
+}

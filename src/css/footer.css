@@ -1,0 +1,31 @@
+.footer{
+  @apply w-full h-fit flex flex-col gap-8 px-20 pt-10 max-md:gap-1 max-md:px-2 max-md:pt-5 bg-[#1B4028];
+}
+
+.footercontent1{
+  @apply w-full h-fit flex flex-row max-md:flex-col justify-between items-center max-md:items-start gap-32 max-md:gap-5;
+}
+
+.footer-logo{
+  @apply w-fit h-fit flex justify-center items-center;
+}
+
+.footer-menu{
+  @apply w-full h-fit flex flex-col justify-center items-start gap-5;
+}
+
+.footer-menu h2{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[24px] text-[#FAFAFA] leading-[24px];
+}
+
+.link{
+  font-family: "Alegreya";
+  @apply w-full h-fit flex justify-start items-center text-[16px] text-[#FAFAFA] leading-[16px] gap-16;
+}
+
+
+.footercontent2{
+  font-family: "Alegreya";
+  @apply w-full h-fit flex justify-start items-start text-[16px] text-[#FAFAFA] py-6;
+}

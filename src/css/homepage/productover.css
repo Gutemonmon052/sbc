@@ -1,0 +1,70 @@
+.productover{
+  @apply w-full h-fit flex flex-col px-20 max-md:px-2 py-32 max-md:py-8 gap-7;
+}
+
+.productover-title{
+  @apply w-full h-fit flex flex-col justify-center items-center gap-5;
+}
+
+.productover-title h2{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[56px] text-[#1B4028] leading-[56px] max-md:text-[30px] max-md:leading-[32px];
+}
+
+.productover-title p{
+  font-family: "Alegreya";
+  @apply w-fit h-fit text-[#212529] text-[24px] text-center max-md:text-[16px];
+}
+
+.productover-content{
+  @apply grid grid-cols-3 max-md:grid-cols-1 gap-5 justify-center items-center;
+}
+
+.productcard{
+  @apply flex flex-col w-fit h-fit gap-5 bg-[#FAFAFA] overflow-hidden rounded-md border-[1px] border-[#212529];
+}
+
+.productcard-img{
+  @apply w-full h-[200px] 
+}
+
+.productcard-img img{
+  @apply w-full h-full object-cover;
+}
+
+.productcard-desc{
+  @apply w-full h-fit flex flex-col gap-1 px-4 text-[#212529]
+}
+
+.productcard-ctg{
+  font-family: "Alegreya";
+  @apply w-fit h-fit text-[16px] max-md:text-[14px] text-[#FAFAFA] bg-[#1B4028] p-2
+}
+
+.productcard-title{
+  font-family: "Alegreya Bold";
+  @apply w-full h-fit text-[30px] max-md:text-[24px] line-clamp-1;
+}
+
+.productcard-price{
+  font-family: "Alegreya";
+  @apply w-full h-fit text-[26px] max-md:text-[22px];
+}
+
+.productcard-text {
+  font-family: "Alegreya";
+  @apply w-full h-fit text-[16px] max-md:text-[14px] text-justify line-clamp-3
+}
+
+.productcard-button{
+  @apply w-full h-fit flex items-end justify-end;
+}
+
+.productcard-button button{
+  font-family: "Alegreya";
+  @apply w-fit h-fit p-3 text-[18px] text-[#FAFAFA] bg-[#1B4028];
+}
+
+.product-link{
+  @apply w-full h-fit flex items-end justify-end;
+}

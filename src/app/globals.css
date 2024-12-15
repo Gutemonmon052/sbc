@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+body{
+  background: #FDFDFC;
+}
+
+@font-face {
+  font-family: "Alegreya Bold";
+  src: url("https://db.onlinewebfonts.com/t/e749a0d0e47e08c53fe01c491bf99ca7.eot");
+  src: url("https://db.onlinewebfonts.com/t/e749a0d0e47e08c53fe01c491bf99ca7.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/e749a0d0e47e08c53fe01c491bf99ca7.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/e749a0d0e47e08c53fe01c491bf99ca7.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/e749a0d0e47e08c53fe01c491bf99ca7.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/e749a0d0e47e08c53fe01c491bf99ca7.svg#Alegreya Bold")format("svg");
+}
+
+@font-face {
+  font-family: "Alegreya";
+  src: url("https://db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.eot");
+  src: url("https://db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/47439778717a494cad415e6e5cf8b790.svg#Alegreya")format("svg");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("https://db.onlinewebfonts.com/t/84d8d4c49f66a6a5abe1e0608ba764a2.eot");
+  src: url("https://db.onlinewebfonts.com/t/84d8d4c49f66a6a5abe1e0608ba764a2.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/84d8d4c49f66a6a5abe1e0608ba764a2.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/84d8d4c49f66a6a5abe1e0608ba764a2.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/84d8d4c49f66a6a5abe1e0608ba764a2.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/84d8d4c49f66a6a5abe1e0608ba764a2.svg#Source Sans Pro")format("svg");
+}
+
+@layer base{
+  @import '../css/navbar.css';
+  @import '../css/homepage/jumbotron.css';
+  @import '../css/homepage/overview.css';
+  @import '../css/homepage/productover.css';
+  @import '../css/homepage/testimonial.css';
+
+  @import '../css/aboutpage/about.css';
+  @import '../css/aboutpage/ourteam.css';
+  @import '../css/aboutpage/ourculture.css';
+
+  @import '../css/productpage/product.css';
+  @import '../css/productpage/testimoni.css';
+
+  @import '../css/teampage/team.css';
+
+  @import '../css/footer.css';
+
+  @import '../css/notfound.css';
+  @import '../css/skeleton.css';
+}

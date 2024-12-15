@@ -1,0 +1,56 @@
+.ourteam{
+  @apply w-full h-fit flex flex-col gap-8 mt-20;
+}
+
+.ourteam-title{
+  @apply w-full h-fit flex flex-col justify-start items-center gap-8;
+}
+
+.ourteam-title h2{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[56px] text-[#1B4028] leading-[56px] max-md:text-[32px] max-md:leading-[34px]; 
+}
+
+.ourteam-title p{
+  font-family: "Alegreya";
+  @apply w-fit h-fit text-[#212529] text-[24px] text-justify max-md:text-[16px];
+}
+
+.ourteam-content{
+  @apply w-full h-fit flex flex-col justify-start items-start gap-5;
+}
+
+.ourteamcard{
+  @apply w-fit h-fit flex flex-row justify-start items-start gap-5 rounded-md p-8 border-2 border-[#1B4028];
+}
+
+.teamimage{
+  @apply w-[80px] h-[80px] flex justify-center items-center rounded-[100%] overflow-hidden;
+}
+
+.teamimage img{
+  @apply w-full h-full object-cover;
+}
+
+.teamidentity{
+  @apply w-fit h-fit flex flex-col justify-center items-start gap-4;
+}
+
+.teamidentity-name{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[26px] text-[#1B4028] leading-[24px];
+}
+
+.teamidentity-title{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[20px] text-[#212529] leading-[16px];
+}
+
+.teamidentity-desc{
+  font-family: "Alegreya";
+  @apply w-fit h-fit text-[16px] text-[#212529] leading-[20px] text-justify;
+}
+
+.teamlink{
+  @apply w-full h-fit flex justify-end items-end;
+}

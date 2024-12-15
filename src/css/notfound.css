@@ -1,0 +1,14 @@
+.notfound{
+  @apply w-fit h-fit flex flex-col gap-6 justify-center items-center py-56 px-20 max-md:px-2 max-md:py-44;
+}
+
+.notfound h2{
+  font-family: "Alegreya Bold";
+  @apply w-fit h-fit text-[125px] text-[#1B4028] leading-[56px] max-md:text-[100px] max-md:leading-[102px];
+}
+
+.notfound p{
+  font-family: "Alegreya";
+  @apply w-fit h-fit text-[#212529] text-[32px] text-justify max-md:text-[24px];
+}
+
