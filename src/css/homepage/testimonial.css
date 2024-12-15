@@ -17,9 +17,9 @@
 }
 
 .testimonials-media{
-  @apply w-full h-[400px] max-md:h-[324px];
+  @apply w-full h-[450px];
 }
 
-.testimonials-media iframe{
+.testimonials-media img{
   @apply w-full h-full object-cover;
 }

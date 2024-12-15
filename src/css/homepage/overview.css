@@ -6,7 +6,7 @@
   @apply w-full h-[450px] max-md:h-[324px];
 }
 
-.comover-media iframe{
+.comover-media img{
   @apply w-full h-full object-cover;
 }
 

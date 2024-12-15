@@ -1,14 +1,12 @@
-import { Suspense } from "react";
-import VideoComponent from "@/components/videocomponent";
+import Image from "next/image";
 import Link from "next/link";
+
 export function CompanyOverview() {
   return (
     <div>
       <div className="company-overview">
         <div className="comover-media">
-          <Suspense fallback={<p>Loading video...</p>}>
-            <VideoComponent link="https://www.youtube.com/embed/-vs0PB-w4jo?si=uzD-KwrVzviwy0Ol" />
-          </Suspense>
+         <Image src="https://cdn.orderonline.id/uploads/9906391670586982868-original.JPG" width={550} height={250} alt="overview"/>
         </div>
         <div className="comover-desc">
           <h2>Proses Istimewa dan Ramah Lingkungan</h2>
@@ -21,9 +19,9 @@ export function CompanyOverview() {
             stylish ke pasar lokal dan internasional.
           </p>
           <div className="about-link">
-            <div className="btn">
-              <Link href="/about">See for Details</Link>
-            </div>
+             <Link href="https://www.youtube.com/embed/-vs0PB-w4jo?si=uzD-KwrVzviwy0Ol" target="blank">
+                <div className="btn">Watch Video</div>
+              </Link>
           </div>
         </div>
       </div>

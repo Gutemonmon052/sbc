@@ -1,5 +1,5 @@
-import { Suspense } from "react";
-import VideoComponent from "../videocomponent";
+import Image from "next/image";
+import Link from "next/link";
 
 export function Testimonials() {
   return (
@@ -11,11 +11,12 @@ export function Testimonials() {
             Tas liburan Bali yang penuh warna dan ceria akan membuat momen
             liburan mereka semakin menyenangkan
           </p>
+          <Link href="https://www.youtube.com/embed/Wd5L-pgqpZA?si=Ya9Y6ZTUp-o5Ymg2" target="blank">
+            <div className="btn">Watch Video</div>
+          </Link>
         </div>
         <div className="testimonials-media">
-          <Suspense fallback={<p>Loading video...</p>}>
-            <VideoComponent link="https://www.youtube.com/embed/Wd5L-pgqpZA?si=Ya9Y6ZTUp-o5Ymg2" />
-          </Suspense>
+          <Image src="https://cdn.orderonline.id/uploads/2304281669557140800-original.JPG" width={550} height={250} alt="overview"/>
         </div>
       </div>
     </div>
