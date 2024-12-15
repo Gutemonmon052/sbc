@@ -3,7 +3,7 @@
 }
 
 .comover-media{
-  @apply w-full h-[450px] max-md:h-[324px];
+  @apply w-full h-[450px] max-md:h-[250px];
 }
 
 .comover-media img{

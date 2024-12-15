@@ -4,7 +4,7 @@
 
 .jumbotron-title{
   font-family: "Alegreya Bold";
-  @apply w-full h-fit flex justify-center items-center text-[#1B4028] text-[96px] max-md:text-[48px] text-center leading-[97px] max-md:leading-[49px];
+  @apply w-full h-fit flex justify-center items-center text-[#1B4028] text-[96px] max-md:text-[36px] text-center leading-[97px] max-md:leading-[37px];
 }
 
 .jumbotron-text{
@@ -14,5 +14,5 @@
 
 .btn{
   font-family: "Alegreya";
-  @apply w-fit h-fit bg-[#1A4028] text-[#FAFAFA] text-[19px] max-md:text-[18px] flex justify-center items-center p-5 max-md:p-3 rounded-[4px];
+  @apply w-fit h-fit bg-[#1A4028] text-[#FAFAFA] text-[19px] max-md:text-[14px] flex justify-center items-center p-5 max-md:p-3 rounded-[4px];
 }

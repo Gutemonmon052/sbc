@@ -17,7 +17,7 @@
 }
 
 .testimonials-media{
-  @apply w-full h-[450px];
+  @apply w-full h-[450px] max-md:h-[250px];
 }
 
 .testimonials-media img{
