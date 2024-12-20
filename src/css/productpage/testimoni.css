@@ -16,7 +16,7 @@
 }
 
 .testimonicard-image{
-  @apply w-[80px] h-[80px] flex justify-center items-center rounded-[100%] overflow-hidden;
+  @apply w-[80px] h-[80px]  max-md:w-[45px] max-md:h-[45px] flex justify-center items-center rounded-[100%] overflow-hidden;
 }
 
 .testimonicard-image img{
